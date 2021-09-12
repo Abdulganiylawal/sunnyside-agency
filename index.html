@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="hero-nav">
+        <img class="logo" src="images/logo.svg" alt="sunnyside" />
+
+        <img
+          class="hamburger-menu"
+          src="images/icon-hamburger.svg"
+          alt="hamburger icon"
+        />
+        <div class="desktop-nav">
+          <ul class="nav-lists">
+            <li class="list"><a href="#">About</a></li>
+            <li class="list"><a href="#">Services</a></li>
+            <li class="list"><a href="#">Projects</a></li>
+            <li class="list" id="list"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="modal-menu hidden">
+          <ul class="nav-lists">
+            <li class="list"><a href="#">About</a></li>
+            <li class="list"><a href="#">Services</a></li>
+            <li class="list"><a href="#">Projects</a></li>
+            <li class="list"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <h1 class="header-name">We are creatives</h1>
+      <div class="arrow-container">
+        <img class="arrow" src="images/icon-arrow-down.svg" alt="arrow" />
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="about-1">
+          <div class="about-1-information">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a class="about-cta-1" href="#">Learn more</a>
+          </div>
+
+          <img
+            class="image-container"
+            src="images/mobile/image-transform.jpg"
+            alt="egg-image"
+            srcset=""
+          />
+        </div>
+        <div class="about-2">
+          <div class="about-2-information">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a class="about-cta-2" href="#">Learn more</a>
+          </div>
+
+          <img
+            class="image-container"
+            src="images/mobile/image-stand-out.jpg"
+            alt="milk-bottles-image"
+            srcset=""
+          />
+        </div>
+      </section>
+
+      <section class="offers">
+        <div class="offers-1">
+          <div class="offers-1-information">
+            <h4>Graphic Design</h4>
+            <p>
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </div>
+        <div class="offers-2">
+          <div class="offers-2-information">
+            <h4>Photography</h4>
+            <p>
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <h3 class="testimonials-heading">Client testimonials</h3>
+        <div class="testimonials-information">
+          <div class="testimonials-1">
+            <img src="images/image-emily.jpg" alt="emily-image" class="image" />
+            <p class="text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h4 class="names">Emily R.</h4>
+            <p class="job-title">Marketing Director</p>
+          </div>
+          <div class="testimonials-2">
+            <img
+              src="images/image-thomas.jpg"
+              alt="thomas-image"
+              class="image"
+            />
+            <p class="text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h4 class="names">Thomas S.</h4>
+            <p class="job-title">Chief Operating Officer</p>
+          </div>
+          <div class="testimonials-3">
+            <img
+              src="images/image-jennie.jpg"
+              alt="jennie-image"
+              class="image"
+            />
+            <p class="text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h4 class="names">Jennie F.</h4>
+            <p class="job-title">Business Owner</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="images-grid">
+        <img
+          src="images/mobile/image-gallery-milkbottles.jpg"
+          alt=""
+          class="images"
+        />
+        <img
+          src="images/mobile/image-gallery-orange.jpg"
+          alt=""
+          class="images"
+        />
+        <img src="images/mobile/image-gallery-cone.jpg" alt="" class="images" />
+        <img
+          src="images/mobile/image-gallery-sugar-cubes.jpg"
+          alt=""
+          class="images"
+        />
+      </section>
+    </main>
+    <footer>
+      <section class="footer-information">
+        <img class="footer-logo" src="images/logo-footer.svg" alt="Sunnyside" />
+        <ul class="footer-links">
+          <li><a class="footer-link" href="#"> About</a></li>
+          <li><a class="footer-link" href="#">Services</a></li>
+          <li><a class="footer-link" href="#"> Projects</a></li>
+        </ul>
+        <ul class="social-links">
+          <li>
+            <a class="social-link" href="#">
+              <img src="images/icon-facebook.svg" alt="facebook-img"
+            /></a>
+          </li>
+          <li>
+            <a class="social-link" href="#"
+              ><img src="images/icon-instagram.svg" alt="instagram-img"
+            /></a>
+          </li>
+          <li>
+            <a class="social-link" href="#"
+              ><img src="images/icon-twitter.svg" alt="instagram-img"
+            /></a>
+          </li>
+          <li>
+            <a class="social-link" href="#"
+              ><img src="images/icon-pinterest.svg" alt="pinterest-img"
+            /></a>
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
